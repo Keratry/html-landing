@@ -117,7 +117,10 @@ ul {
     padding: 0;
     list-style-type: none;
 }
-.services {margin-bottom: 40px;}
+
+.services {
+    margin-bottom: 40px;
+}
 
 ul ul {
     font-size: 14px;
@@ -127,6 +130,10 @@ ul ul {
 
 ul .opened ul {
     display: block;
+}
+
+.services>li>span {
+    cursor: pointer;
 }
 
 .services>li {
@@ -157,7 +164,8 @@ li.opened:before {
     display: flex;
     justify-content: center;
     border-radius: 5px;
-    background: #D03156;;
+    background: #D03156;
+    ;
     color: #fff;
     font-size: 24px;
     text-decoration: none;
